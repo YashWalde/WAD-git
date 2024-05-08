@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .sidebar{
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            background-color: brown;
+            padding-top: 25px;
+        }
+        .content{
+            margin-left: 250px;
+            padding-bottom: 20px;
+            color: blue;
+        }
+        .card{
+            background-color: rgb(7, 179, 247);
+            text-emphasis-color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Dashboard</h2>
+        <ul>
+            <li><a href="#">Ecommerce</a></li>
+            <li><a href="#">college</a></li>
+            <li><a href="#">Exam</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h2>Ecommerce Staticstics</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Total records</h5>
+                        <p>1000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Total revenue</h5>
+                        <p>$10000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>average total records</h5>
+                        <p>3000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
